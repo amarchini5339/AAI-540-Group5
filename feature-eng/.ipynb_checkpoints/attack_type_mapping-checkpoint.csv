@@ -1,0 +1,46 @@
+original_attack_type,normalized_attack_type,count
+,Normal,2218764.0
+ Fuzzers,Fuzzing,5051.0
+ Fuzzers ,Fuzzing,19195.0
+ Reconnaissance ,Reconnaissance,12228.0
+ Shellcode ,Exploits,1288.0
+Analysis,Reconnaissance,2677.0
+BENIGN,Normal,2273097.0
+Backdoor,Backdoor,1795.0
+Backdoors,Backdoor,534.0
+Bot,Botnet,1966.0
+Botnet,Botnet,
+Brute Force,Brute Force,
+DDoS,DoS/DDoS,128027.0
+DoS,DoS/DDoS,16353.0
+DoS GoldenEye,DoS/DDoS,10293.0
+DoS Hulk,DoS/DDoS,231073.0
+DoS Slowhttptest,DoS/DDoS,5499.0
+DoS slowloris,DoS/DDoS,5796.0
+Exploits,Exploits,44525.0
+FTP-Patator,Brute Force,7938.0
+Fuzzers,Fuzzing,
+Generic,Generic Malware,215481.0
+Heartbleed,Exploits,11.0
+Infiltration,Infiltration,36.0
+Normal,Normal,
+Port Scanning,Reconnaissance,
+PortScan,Reconnaissance,158930.0
+Reconnaissance,Reconnaissance,1759.0
+SSH-Patator,Brute Force,5897.0
+Shellcode,Exploits,223.0
+Web Attack � Brute Force,Web Attack,1507.0
+Web Attack � Sql Injection,Injection,21.0
+Web Attack � XSS,Web Attack,652.0
+Worms,Generic Malware,174.0
+backdoor,Backdoor,508116.0
+ddos,DoS/DDoS,6165008.0
+dos,DoS/DDoS,3375328.0
+exploit,Exploits,
+injection,Injection,452659.0
+mitm,Man-in-the-Middle,1052.0
+normal,Normal,782038.0
+password,Brute Force,1718568.0
+ransomware,Generic Malware,72805.0
+scanning,Reconnaissance,6153634.0
+xss,Web Attack,2108944.0
