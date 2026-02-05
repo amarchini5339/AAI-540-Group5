@@ -83,7 +83,7 @@ These datasets provide diverse traffic environments and attack behaviors. Combin
 2. Start JupyterLab
 3. Clone the repository
     ```
-    git clone https://github.com/apadin-repo/AAI-511-04-Group-3.git
+    git clone https://github.com/amarchini5339/AAI-540-Group5.git
     ```
 4. Run the notebooks sequentially to reproduce the full pipeline:
 
