@@ -1,0 +1,184 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+.eggs/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+
+# =========================
+# Virtual Environments
+# =========================
+venv/
+.env/
+.venv/
+ENV/
+env/
+pythonenv/
+.envrc
+
+# =========================
+# Jupyter / Notebooks
+# =========================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*.nbconvert.ipynb
+
+# Optional — ignore notebook outputs cache
+*/.cache/
+
+# =========================
+# Data (DO NOT COMMIT LARGE DATASETS)
+# =========================
+data/raw/
+data/interim/
+data/processed/
+data/merged/
+data/temp/
+*.csv
+*.parquet
+*.feather
+*.hdf5
+*.h5
+*.sqlite
+*.sqlite3
+*.db
+
+# Keep only small sample datasets if needed
+!data/sample/
+!data/sample/**
+
+# =========================
+# Feature Store / Athena / Query outputs
+# =========================
+athena-results/
+query-results/
+*.athena
+*.tmpquery
+
+# =========================
+# ML Models / Artifacts / Checkpoints
+# =========================
+models/
+checkpoints/
+artifacts/
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.joblib
+*.pkl
+*.pickle
+*.onnx
+*.model
+*.bin
+
+# =========================
+# Experiment Tracking (MLflow, W&B, TensorBoard)
+# =========================
+mlruns/
+wandb/
+runs/
+tensorboard/
+events.out.tfevents*
+
+# =========================
+# Logs / Cache / Temp
+# =========================
+logs/
+*.log
+*.out
+*.err
+tmp/
+temp/
+.cache/
+*.cache
+
+# =========================
+# AWS / Cloud / SageMaker / Credentials (CRITICAL)
+# =========================
+.aws/
+.aws/credentials
+.aws/config
+.aws-sso/
+*.pem
+*.key
+*.crt
+*.p12
+credentials.json
+secrets.json
+token.json
+
+# SageMaker local artifacts
+.sagemaker/
+sagemaker-local/
+*.sagemaker
+*.aws-sam/
+
+# =========================
+# Environment Variables / Secrets
+# =========================
+.env
+.env.*
+*.secret
+*.secrets
+*.env.local
+.env.production
+.env.dev
+
+# =========================
+# IDE / Editors
+# =========================
+.vscode/
+.idea/
+*.iml
+*.swp
+*.swo
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp
+*.old
+*.orig
+
+# =========================
+# Docker (if used later)
+# =========================
+docker-compose.override.yml
+*.tar
+
+# =========================
+# Build / Packaging
+# =========================
+*.whl
+*.manifest
+*.spec
+
+# =========================
+# Coverage / Testing
+# =========================
+.coverage
+coverage/
+htmlcov/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+
+# =========================
+# Misc
+# =========================
+*.lock
+Pipfile.lock
+poetry.lock
+
